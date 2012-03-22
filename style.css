@@ -1,0 +1,26 @@
+
+ 	body {
+ 		font-family: sans-serif;
+ 		font-size:16px;
+ 		background:orange;
+ 		color:blue;
+ 	}
+ 	
+ 	.nav {
+ 		position:fixed;
+ 		margin:0;
+ 		padding:0;
+ 	}
+ 	.nav li {
+ 		list-style-type:circle;
+  	}
+	  	
+ 	.content{
+ 		margin-left:150px;
+ 		text-align:center;
+ 	} 	
+ 	.thumb {
+ 		height:400px;
+ 		width:400px;
+ 	
+ 	}
