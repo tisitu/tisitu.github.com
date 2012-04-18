@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+    <body> 
+        <canvas id="myCanvas" width="500" height="400"></canvas> 
+        <script language="javascript"> 
+            // this is javascript 
+            var canvas = document.getElementById("myCanvas"); 
+            if (canvas && canvas.getContext) { 
+
+                var c = canvas.getContext('2d'); 
+
+                // rectangle
+                c.fillStyle = "#dddddd";
+                c.fillRect(0, 0, 500, 400); 
+
+
+                // arcs
+                c.strokeStyle = "rgb(150, 0, 255)";                                    
+                c.beginPath();
+    c.arc(100, 100, 50, 0, Math.PI / 2);
+    c.arc(200, 200, 50, Math.PI, Math.PI / 2);    
+    c.closePath();
+    c.stroke();
+
+    // circle
+                c.strokeStyle = "rgb(255, 0, 0)";                        
+    c.beginPath();
+    c.arc(300, 300, 50, 0, Math.PI * 2);
+                c.fillStyle = "#232323";    
+    c.stroke();
+    c.fill();    
+    
+                
+                // lines, shapes
+                c.beginPath();
+                c.moveTo(0, 0);
+                c.lineTo(100, 100);
+                c.moveTo(30, 40);
+                c.lineTo(340, 340);
+                c.stroke();
+            } 
+
+        </script> 
+
+    </body> 
+
+</html>
