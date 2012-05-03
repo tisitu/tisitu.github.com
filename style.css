@@ -1,8 +1,9 @@
 
  	body {
- 	background-image:url('images/leagueoflegends.jpg');
+ 	background-image:url('images/orangesplash.jpg');
 	background-repeat:repeat;
 	background-attachment:fixed;
+	background-size:100%;
  	padding-left: 11em;
  	font-family: sans-serif;
  	font-size:16px;
@@ -37,11 +38,6 @@
   	a:visited {
     color: blue }
     
-    address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
-    
  	.nav {
  		position:fixed;
  		margin:0;
@@ -54,7 +50,7 @@
  	.content{
  		margin-left:150px;
  		text-align:center;
- 		color:yellow;
+ 		color:blue;
  	} 	
  	.thumb {
  		height:400px;
@@ -73,6 +69,7 @@
 	
 	.align-left {
 		text-align:left;
+		color:blue;
 	}
 	
 	.tab {
