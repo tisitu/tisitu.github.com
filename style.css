@@ -4,6 +4,11 @@
  		font-size:16px;
  		background:orange;
  		color:blue;
+ 	ul.navbar {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
  	}
  	
  	ul.navbar {
