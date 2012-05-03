@@ -16,16 +16,20 @@
     left: 1em;
     width: 9em
     }
- 	
- 	ul.navbar li {
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
     
   	ul.navbar a {
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
   	display: inline-block;
-  background: yellow;
-    text-decoration: none }
+  	width: 100px;
+    background: yellow;
+    text-decoration: none;
+    box-shadow:3px 3px 10px rgba(0,0,0,0.5);
+    }
+    ul.navbar a:hover {
+    	background:#DDDE79;
+    }
   	a:link {
     color: blue }
   	a:visited {
