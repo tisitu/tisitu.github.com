@@ -1,9 +1,11 @@
 
  	body {
+ 	background-image:url('images/leagueoflegends.jpg');
+	background-repeat:repeat;
+	background-attachment:fixed;
  	padding-left: 11em;
  	font-family: sans-serif;
  	font-size:16px;
- 	background:orange;
  	color:blue;
  	}
  	
@@ -31,7 +33,7 @@
     	background:#DDDE79;
     }
   	a:link {
-    color: blue }
+    color: }
   	a:visited {
     color: blue }
     
@@ -52,6 +54,7 @@
  	.content{
  		margin-left:150px;
  		text-align:center;
+ 		color:yellow;
  	} 	
  	.thumb {
  		height:400px;
