@@ -18,12 +18,13 @@
     }
  	
  	ul.navbar li {
-    background: yellow;
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid black }
     
   	ul.navbar a {
+  	display: inline-block;
+  background: yellow;
     text-decoration: none }
   	a:link {
     color: blue }
